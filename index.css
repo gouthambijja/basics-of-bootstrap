@@ -1,0 +1,31 @@
+@font-face {
+  font-family: pubg;
+  src: url("Assassin$.ttf");
+}
+body {
+  font-family: pubg !important;
+  background-color: black;
+}
+.pubgnav {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.transp {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+}
+.pubg-test {
+  border-radius: 10%;
+  overflow: hidden;
+  transition: box-shadow 0.2s linear;
+}
+.pubg-test:hover {
+  box-shadow: 2px 0px 7px rgb(0, 132, 255), -2px 0px 7px rgb(255, 60, 0),
+    0px 2px 7px rgb(180, 251, 13), 0px -2px 10px rgb(9, 255, 0);
+}
+@media (max-width: 768px) {
+  .pubg-test {
+    margin-top: 15px;
+  }
+}
